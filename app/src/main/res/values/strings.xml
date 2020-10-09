@@ -16,15 +16,18 @@
 -->
 
 <resources>
-    <string name="app_name"><![CDATA[Videos by Google]]></string>
-    <string name="browse_title"><![CDATA[Videos by Google]]></string>
-    <string name="related_movies">Related Videos</string>
+    <string name="app_name">Wouri TV</string>
+    <string name="browse_title">Wouri TV</string>
+    <string name="related_movies">Suggestions de lecture</string>
     <string name="vertical_grid_title"><![CDATA[Vertical Video Grid]]></string>
 
     <string name="popular_header">Popular Videos</string>
     <string name="more_samples">More Samples</string>
     <string name="grid_view">Vertical Grid View</string>
     <string name="error_fragment">Error Fragment</string>
+    <string name="setting">Paramètres</string>
+    <string name="refresh">Actualiser</string>
+    <string name="account">Mon compte</string>
     <string name="personal_settings">Personal Settings</string>
     <string name="watch_trailer_1">Watch trailer</string>
     <string name="watch_trailer_2">FREE</string>
@@ -75,7 +78,7 @@
     </string>
 
     <!-- Strings related to guided sequence activity -->
-    <string name="guidedstep_first_title">Guided Step First Page</string>
+    <string name="guidedstep_first_title">Identification</string>
     <string name="guidedstep_first_description">First step of guided sequence</string>
     <string name="guidedstep_first_breadcrumb">Guided Steps: 1</string>
     <string name="guidedstep_second_title">Guided Step Second Page</string>
@@ -122,4 +125,7 @@
     <string name="pref_key_login">pref_login</string>
     <string name="pref_title_login">Login</string>
     <string name="playback_tag">PLAYBACK_TAG</string>
+    <string name="login">CONNEXION</string>
+    <string name="pin">Veuillez saisir un pin de connexion</string>
+    <string name="annuler">RETOUR A L\'ACCUEIL</string>
 </resources>

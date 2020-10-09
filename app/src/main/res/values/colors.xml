@@ -16,12 +16,20 @@
 -->
 <resources>
     <color name="background_gradient_start">#000000</color>
-    <color name="background_gradient_end">#DDDDDD</color>
-    <color name="fastlane_background">#0096a6</color>
-    <color name="search_opaque">#ffaa3f</color>
-    <color name="selected_background">#ffaa3f</color>
+    <color name="background_gradient_end">#e42884</color>
+    <color name="fastlane_background">#8f0c6f</color>
+    <color name="search_opaque">#FF4081</color>
+    <color name="selected_background">#8d0db2</color>
 
-    <color name="default_background">#0096a6</color>
+    <color name="default_background">#3d3d3d</color>
     <color name="icon_background">#4A4F51</color>
     <color name="icon_alt_background">#2A2F51</color>
+
+
+    <color name="presse">#b60f61</color>
+    <color name="focus">#6d083a</color>
+    <color name="dessus">#df3a8b</color>
+    <color name="defaut">#f03f96</color>
+    <color name="noir">#000000</color>
+
 </resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+>
+
+    <!-- Screen elements that can render outside the overscan safe area go here -->
+
+    <!-- Nested RelativeLayout with overscan-safe margin -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:background="@color/noir"
+    >
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginLeft="50dp"
+                android:id="@+id/text"
+                android:lineSpacingExtra="18dp"
+                android:textColor="@color/lb_tv_white"
+                android:text="Veuillez saisir le pin de connexion afin \n de lier votre compte a cette Télévision."
+                android:layout_height="wrap_content" />
+
+        <EditText
+                android:layout_width="300dp"
+                android:inputType="number"
+                android:layout_marginTop="35dp"
+                android:layout_below="@+id/text"
+                android:hint="PIN de connexion"
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/background_gradient_start"
+                android:nextFocusDown="@+id/bouton2"
+                android:id="@+id/code"
+                android:padding="5dp"
+                android:background="@color/lb_tv_white"
+                android:layout_height="50dp" />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_below="@+id/code"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                android:layout_height="wrap_content">
+
+            <Button
+                    android:layout_width="200dp"
+                    android:background="@drawable/btstyle"
+                    android:text="RETOUR A L'ACCUEIL"
+                    android:onClick="CancelButton"
+                    android:id="@+id/bouton2"
+                    android:nextFocusUp="@id/code"
+                    android:nextFocusRight="@id/bouton"
+                    android:layout_height="50dp" />
+
+            <Button android:layout_width="200dp"
+                    android:background="@drawable/btstyle1"
+                    android:text="CONNEXON"
+                    android:layout_marginLeft="30dp"
+                    android:onClick="OnclickButton"
+                    android:nextFocusLeft="@id/bouton2"
+                    android:id="@+id/bouton"
+                    android:nextFocusUp="@id/code"
+                    android:layout_height="50dp" />
+
+        </LinearLayout>
+
+
+        <!-- Screen elements that need to be within the overscan safe area go here -->
+
+    </RelativeLayout>
+</RelativeLayout>
