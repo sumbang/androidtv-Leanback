@@ -146,9 +146,13 @@ public class PlaybackFragment extends VideoSupportFragment {
             }
         }
 
-        Log.e(str2, str);
+        String replace = str.replace("https","http");
 
-        this.mVideo.setVideoUrl(str);
+        Log.e("URL", str);
+
+        Log.e("URL1", replace);
+
+        this.mVideo.setVideoUrl(replace);
 
         mPlaylist = this.PlayListBuild(datafinale);
 
